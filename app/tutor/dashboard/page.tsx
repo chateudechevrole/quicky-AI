@@ -45,7 +45,7 @@ export default async function TutorDashboardPage() {
         <div className="bg-red-50 border border-red-200 rounded-lg p-8 text-center">
           <h1 className="text-2xl font-bold text-red-800 mb-4">Application Rejected</h1>
           <p className="text-red-700 mb-6">
-            We're sorry, but your application to become a tutor has been rejected.
+            We&apos;re sorry, but your application to become a tutor has been rejected.
             Please contact support for more information.
           </p>
         </div>
@@ -181,7 +181,7 @@ export default async function TutorDashboardPage() {
       {/* Stats Cards */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
         <div className="bg-white rounded-lg shadow p-6">
-          <h3 className="text-sm font-medium text-gray-500 mb-2">Today's Classes</h3>
+          <h3 className="text-sm font-medium text-gray-500 mb-2">Today&apos;s Classes</h3>
           <p className="text-3xl font-bold text-gray-900">{todayBookings?.length || 0}</p>
         </div>
         <div className="bg-white rounded-lg shadow p-6">
